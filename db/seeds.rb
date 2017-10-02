@@ -35,3 +35,8 @@ Comment.create(content: "I hate you!", photo_id: 4, user_id: 2)
 Comment.create(content: "Hi", photo_id: 2, user_id: 2)
 Comment.create(content: "I am hungry", photo_id: 6, user_id: 3)
 Comment.create(content: "Woah, you are ugly!", photo_id: 5, user_id: 4)
+
+
+
+# Looking at your face is harder than learning React
+# Rendering your photo will cause the component to unmount
