@@ -6,6 +6,7 @@ class AuthController < ApplicationController
     if user && user.authenticate(params[:password])
       token = encode_token({ user_id: user.id})
       render json: { user: user, jwt: token}
+    else render json: {message: "Invalid User"}
     end
   end
 end
