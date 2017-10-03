@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20170928134415) do
   create_table "photos", force: :cascade do |t|
     t.string "url"
     t.integer "user_id"
+    t.integer "dislikes", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

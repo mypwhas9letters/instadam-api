@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   post '/newcomment', to: 'comments#create'
   get '/users/me', to: 'users#me'
   get 'welcome', to: 'application#welcome'
+  post '/signup', to: 'users#new'
+  patch '/photos', to: 'photos#update'
   resources :users, :photos, :comments
 end

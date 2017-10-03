@@ -1,7 +1,4 @@
 class PhotoSerializer < ActiveModel::Serializer
-  attributes :id, :url, :user_id, :user
-
-  has_many :comments
-  has_many :users, through: :comments
+  attributes :id, :url, :user_id, :dislikes, :user
 
 end

@@ -22,6 +22,13 @@ def create
   end
 end
 
+def new
+  user = User.new(username: params[:username], password: params[:password])
+  if user.save
+    render json: {username: user.username, password: user.password}
+  end
+end
+
 
 
 def me
