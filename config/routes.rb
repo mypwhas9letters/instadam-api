@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   post '/users', to: 'users#create'
   post '/login', to: 'auth#create'
   post '/photoupload', to: 'photos#create'
+  post '/newcomment', to: 'comments#create'
   get '/users/me', to: 'users#me'
   get 'welcome', to: 'application#welcome'
   resources :users, :photos, :comments
