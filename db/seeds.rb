@@ -30,10 +30,10 @@ Photo.create(url: "http://i2.cdn.cnn.com/cnnnext/dam/assets/160825160953-05-week
 Comment.create(content: "you suck!", photo_id: 1, user_id: 2)
 Comment.create(content: "you look like a bear", photo_id: 2, user_id: 2)
 Comment.create(content: "Bear Much?!", photo_id: 2, user_id: 2)
-Comment.create(content: "Woah, you are awesome!", photo_id: 3, user_id: 1)
+Comment.create(content: "Woah, you are the worst!", photo_id: 3, user_id: 1)
 Comment.create(content: "I hate you!", photo_id: 4, user_id: 2)
-Comment.create(content: "Hi", photo_id: 2, user_id: 2)
-Comment.create(content: "I am hungry", photo_id: 6, user_id: 3)
+Comment.create(content: "don't talk to me ever", photo_id: 2, user_id: 2)
+Comment.create(content: "I am going to eat you", photo_id: 6, user_id: 3)
 Comment.create(content: "Woah, you are ugly!", photo_id: 5, user_id: 4)
 
 
