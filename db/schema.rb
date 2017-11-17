@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20170928134415) do
     t.string "content"
     t.integer "photo_id"
     t.integer "user_id"
+    t.string "sentiment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -27,6 +28,7 @@ ActiveRecord::Schema.define(version: 20170928134415) do
     t.string "url"
     t.integer "user_id"
     t.integer "dislikes", default: 0
+    t.integer "likes", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
