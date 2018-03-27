@@ -1,7 +1,7 @@
 # Users
 User.create(username: "kenny", password: "123")
 User.create(username: "daniel", password: "123")
-User.create(username: "hui", password: "123")
+User.create(username: "demo", password: "demo")
 User.create(username: "person", password: "123")
 User.create(username: "anotherperson", password: "123")
 
